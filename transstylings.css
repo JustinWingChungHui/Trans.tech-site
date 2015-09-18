@@ -27,10 +27,8 @@ h1 {
     color: #C8FEFF;
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    left: 70%;
-    display: inline;
     text-align: right;
-    padding: 10% 30% 10% 0%%;
+    padding: 2% 20% 10% 5%;
     
     font-size: 3.5em;
 }
@@ -91,11 +89,53 @@ body>div {
     position: relative;
     margin: auto auto auto auto;
     border-radius: 50%;
-    border: solid 1px #C8FEFF;
+    border: solid 6px #C8FEFF;
     /*background-color: red;*/
     width: 50%;
     height: 70%;
     
+}
+
+div.icon > img {
+    position: absolute;
+    height: 70%;
+    width: 80%;
+    
+    left: 4%;
+    top: 3%;
+}
+
+/*div.icon > img:nth-of-type(2) {
+    position: absolute;
+    height: 70%;
+    width: 80%;
+    
+    left: 8%;
+    top: 7%;
+}*/
+
+img#directory-page {
+    left: 8%;
+    top: 13%;
+}
+img#watch-app {
+    left: 10%;
+    top: 12%;
+}
+
+img#support-page {
+    left: 9%;
+    top: 11%;
+}
+
+img#git-icon {
+    left: 10%;
+    top: 12%;
+}
+
+img#twitter-icon {
+    left: 10%;
+    top: 14%;
 }
 
 .icon-header {
@@ -107,9 +147,11 @@ body>div {
     height: 30%;
 }
 
-h4#icon-header-text {
+p#icon-header-text {
     text-align: center;
     padding-right: 6%;
+    
+    font-size: 2em;
 }
 
 .third-row.row {
@@ -155,8 +197,8 @@ h1#sub-page-headline {
     color: #C8FEFF;
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    left: 5%;
-    display: inline;
+    
+    
     text-align: left;
     padding: 0% 30% 10% 0%%;
     
@@ -165,14 +207,14 @@ h1#sub-page-headline {
 
 h2#sub-page-tagline {
     position: absolute;
-    left: 30%;
+    left: 35%;
     font-size: 2em;
     text-align: left;
-    padding: 10% 30% 10% 0%%;
+    padding: 0% 30% 10% 0%%;
 }
 
 .sub-page-row.third-row {
-    height: 50%;
+    height: 25%;
     top: 62%;
 }
 
@@ -182,7 +224,16 @@ h2#sub-page-tagline {
     margin-bottom: 0%;
 }
 
+table.borderless td {
+    border: none;
+}
+
+table.borderless th {
+    border: none;
+}
+
 th {
+    border: none;
     color: #C8FEFF;
     font-family: 'Raleway', sans-serif;
 }
